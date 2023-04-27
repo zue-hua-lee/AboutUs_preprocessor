@@ -5,7 +5,7 @@
 
 
 #### 2. 創建一個 src 資料夾
-> src 資料夾裡放 index.pug, aboutus.sass, aboutus.js
+> src 資料夾裡放 index.pug, aboutus.sass, aboutus.js，
 > origin 資料夾中放的是原版的 index.html, aboutus.css
 
 
