@@ -4,8 +4,10 @@
 接著建立 package.json, 並安裝 yarn  
 
 ### 2. 創建一個 src 資料夾
+```
 src 資料夾裡放 index.pug, aboutus.sass, aboutus.js  
 origin 資料夾中放的是原版的 index.html, aboutus.css  
+```
 
 ### 3. aboutus.pug 連結 aboutus.css 和 aboutus.js
 link(href="./dist/aboutus.css", rel="stylesheet")  
