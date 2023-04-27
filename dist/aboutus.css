@@ -1,6 +1,3 @@
-p {
-  margin: 0.5vh; }
-
 #WeLugg_main {
   background: url(https://ppt.cc/f0lUsx@.png) center/cover;
   position: relative;
@@ -82,7 +79,7 @@ p {
     position: absolute;
     width: 100%;
     height: 30%;
-    top: 25%; }
+    top: 24%; }
     #WeLugg_aboutCompany #aboutCompany_box #image_left {
       display: none;
       animation-delay: 0.8s;
@@ -117,7 +114,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    top: calc(25% - 7vw); }
+    top: calc(24% - 7vw); }
   #WeLugg_aboutCompany .aboutCompany_word2 {
     display: none;
     animation-delay: 0.4s;
@@ -131,7 +128,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    top: calc(25% - 4vw); }
+    top: calc(24% - 4vw); }
   #WeLugg_aboutCompany .aboutCompany_word3 {
     display: none;
     animation-delay: 1.2s;
@@ -145,7 +142,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    top: 62%; }
+    top: 60%; }
   #WeLugg_aboutCompany .aboutCompany_word4 {
     display: none;
     animation-delay: 1.6s;
@@ -254,7 +251,7 @@ p {
     font-weight: 600;
     line-height: normal;
     position: absolute;
-    top: 12%; }
+    top: 10%; }
   #WeLugg_person1 .person_word2 {
     font-family: 'Hind Kochi',"Helvetica",sans-serif;
     color: black;
