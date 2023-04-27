@@ -21,7 +21,7 @@
 
 
 #### 5. alternative way
-利用tmux執行以下指令監聽，存檔時會自動將./src中的 pug, sass轉譯成 html, css檔，並儲存在 ./dist 中
+> 利用tmux執行以下指令監聽，存檔時會自動將./src中的 pug, sass轉譯成 html, css檔，並儲存在 ./dist 中
 > ./node_modules/.bin/pug3 ./src/index.pug -o ./dist --watch
 > ./node_modules/.bin/node-sass ./src/aboutus.sass -o ./dist --watch
 
