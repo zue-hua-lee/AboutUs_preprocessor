@@ -1,0 +1,385 @@
+p{margin:0.5vh;}
+body{
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+#WeLugg_main{
+/*     background: url(./material/main.png) center/cover; */
+    background: url(https://ppt.cc/f0lUsx@.png) center/cover;
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 29/8.68;
+}
+.main_word1{
+    display: none;
+    font-size: 3vw;
+    line-height: 3vw;
+    color: #5D5B5B;
+    position: absolute;
+    width: 48%;
+    bottom: 17%;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.main_word2{
+    display: none;
+    animation-delay: 0.4s;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    color: #939191;
+    position: absolute;
+    width: 48%;
+    bottom: 9%;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#WeLugg_title{
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 29/5.32;
+}
+#logo{
+    display: none;
+    animation-delay: 0.8s;
+    background: url(https://ppt.cc/fdccdx@.png) no-repeat center/contain;
+    width: 30%;
+    height: 65%;
+    position: absolute;
+    bottom: 18%;
+    left: 29%;
+}
+.title_word1{
+    display: none;
+    animation-delay: 0.8s;
+    font-size: 4vw;
+    color: #87C2B6;
+    position: absolute;
+    bottom: 25%;
+    right: calc(38% + 9vw);
+    
+}
+.title_word2{
+    display: none;
+    animation-delay: 0.8s;
+    font-size: 4vw;
+    color: #5B7097;
+    position: absolute;
+    bottom: 25%;
+    right: 37%;
+}
+#WeLugg_aboutCompany{
+    background-color: #EEEEEE;
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 29/15;
+}
+#aboutCompany_box{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 25%;
+    display:flex;
+    justify-content: space-evenly;
+}
+#image_left{
+    display: none;
+    animation-delay: 0.8s;
+/*     background: url(./material/image_left.png) no-repeat center/contain; */
+    background: url(https://ppt.cc/fCJkvx@.png) no-repeat center/contain;
+    width: 30%;
+    height: 100%;
+    margin-left: 12%;
+}
+#image_mid{
+    display: none;
+    animation-delay: 0.8s;
+/*     background: url(./material/image_mid.png) no-repeat center/contain; */
+    background: url(https://ppt.cc/fjMbZx@.png) no-repeat center/contain;
+    width: 30%;
+    height: 100%;
+    margin: 0 1%;
+}
+#image_right{
+    display: none;
+    animation-delay: 0.8s;
+/*     background: url(./material/image_right.png) no-repeat center/contain; */
+    background: url(https://ppt.cc/fxUfYx@.png) no-repeat center/contain;
+    width: 30%;
+    height: 100%;
+    margin-right: 12%;
+}
+.aboutCompany_word1{
+    display: none;
+    font-size: 3vw;
+    color: #7184A6;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(25% - 7vw);
+    line-height: 3vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.aboutCompany_word2{
+    display: none;
+    animation-delay: 0.4s;
+    font-size: 1.5vw;
+    color: #939191;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(25% - 4vw);
+    line-height: 3vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.aboutCompany_word3{
+    display: none;
+    animation-delay: 1.2s;
+    font-size: 1.3vw;
+    color: #5D5B5B;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 62%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.aboutCompany_word4{
+    display: none;
+    animation-delay: 1.6s;
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #939191;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(62% + 9vw);
+    white-space: nowrap;
+    overflow: hidden;
+}
+#WeLugg_aboutUs{
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 29/12;
+}
+#aboutUs_box{
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    top: 25%;
+    display:flex;
+    justify-content: space-evenly;
+}
+#image_member1{
+    cursor: pointer;
+    opacity: 0.3;
+    background: url(https://ppt.cc/fHAlkx@.png) no-repeat center/contain;
+    width: 17%;
+    height: auto;
+    margin: 0 1%;
+}
+#image_member2{
+    cursor: pointer;
+    opacity: 0.3;
+    background: url(https://ppt.cc/fNC8ax@.png) no-repeat center/contain;
+    width: 17%;
+    height: auto;
+    margin: 0 1%;
+}
+#image_member3{
+    cursor: pointer;
+    opacity: 0.3;
+    background: url(https://ppt.cc/f8S9lx@.png) no-repeat center/contain;
+    width: 17%;
+    height: auto;
+    margin: 0 1%;
+}
+#image_member4{
+    cursor: pointer;
+    opacity: 1;
+    background: url(https://ppt.cc/fleazx@.png) no-repeat center/contain;
+    width: 17%;
+    height: auto;
+    margin: 0 1%;
+}
+#image_member5{
+    cursor: pointer;
+    opacity: 0.3;
+    background: url(https://ppt.cc/fJkL9x@.png) no-repeat center/contain;
+    width: 17%;
+    height: auto;
+    margin: 0 1%;
+}
+#image_member1:hover,
+#image_member2:hover,
+#image_member3:hover,
+#image_member4:hover,
+#image_member5:hover{
+    opacity: 0.7;
+    width: 19%;
+    margin: 0;
+}
+
+.aboutUs_word1{
+    font-size: 3vw;
+    color: #7184A6;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 12%;
+}
+.aboutUs_word2{
+    font-size: 1.5vw;
+    color: #939191;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(12% + 3vw);
+}
+
+#WeLugg_person1{
+    background-color: #EEEEEE;
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 29/40;
+    padding: 15%;
+}
+.person_word1{
+    font-size: 5.3vw;
+    color: #F1564C;
+    position: absolute;
+    top: 12%;
+}
+.person_word2{
+    font-size: 2.2vw;
+    position: absolute;
+    top: calc(12% + 4vw);
+    right: 50vw;
+}
+.person_word3{
+    color: #939191;
+    font-size: 1.2vw;
+    position: absolute;
+    top: calc(12% + 10vw);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.person_word4{
+    color: #939191;
+    font-size: 1.2vw;
+    position: absolute;
+    top: calc(12% + 12vw);
+    right: 50vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.person_line{
+    border: 0.2vw solid #7A7676;
+    position: absolute;
+    width: 84%;
+    top: 25%;
+    left: 8%;
+}
+#image4{
+    background: url(https://ppt.cc/fZfAAx@.png) no-repeat bottom left/contain;
+    width: 40%;
+    height: 22%;
+    position: absolute;
+    top: 3%;
+    left: 60%;
+}
+.person_box{
+    position: absolute;
+    width: 50%;
+    height: 8%;
+    top: 30%;
+    left: 25%;
+    display:flex;
+    justify-content: space-between;
+}
+.person_package{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#illustration1{
+    background: url(https://ppt.cc/fo7Zcx@.png) no-repeat center/contain;
+    width: 50px;
+    height: 50px;
+}
+#illustration2{
+    background: url(https://ppt.cc/flAzyx@.png) no-repeat center/contain;
+    width: 50px;
+    height: 50px;
+}
+#illustration3{
+    background: url(https://ppt.cc/fQueHx@.png) no-repeat center/contain;
+    width: 50px;
+    height: 50px;
+}
+.illustration_word{
+    color: #5D5B5B;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+.person_word5{
+    color: #939191;
+    font-size: 1.2vw;
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    top: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.person_word6{
+    color: #5D5B5B;
+    font-size: 1.5vw;
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    top: 44%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.person_word7{
+    color: #939191;
+    font-size: 1.2vw;
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    top: 60%;
+}
+.world_map{
+    background: url(https://ppt.cc/fbw9Xx@.png) no-repeat center/contain;
+    /* background: url(https://ppt.cc/fefB1x@.png) no-repeat center/contain; */
+    width: 80%;
+    height: 38%;
+    position: absolute;
+    top:58%;
+    left: 10%;
+}
+.image_fb{
+    /*background: url(./material/fb.png) no-repeat center/contain;*/
+    background: url(https://ppt.cc/fMnI5x@.png) no-repeat center/contain;
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    bottom:2%;
+    left: 45%;
+}
+.image_ig{
+    background: url(https://ppt.cc/fE8n9x@.png) no-repeat center/contain;
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    bottom:2%;
+    left: 51%;
+}

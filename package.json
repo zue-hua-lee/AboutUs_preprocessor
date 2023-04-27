@@ -1,0 +1,31 @@
+{
+  "name": "AboutUs_preprocessor",
+  "version": "0.0.1",
+  "description": "AboutUs_preprocessor",
+  "scripts": {
+    "watch": "npx parcel watch src/index.pug --dist-dir dist/ --public-url ./ --no-source-maps",
+    "serv": "npx parcel src/index.pug --port 8902"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zue-hua-lee/AboutUs_preprocessor.git"
+  },
+  "author": "zue-hua-lee <e24094025@gs.ncku.edu.tw>",
+  "license": "ISC",
+  "homepage": "https://github.com/zue-hua-lee/AboutUs_preprocessor#ReadMe",
+  "keywords": [],
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1",
+    "parcel": "^2.5.0",
+    "@anduh/pug-cli": "^1.0.0-alpha8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@parcel/transformer-pug": "2.5.0",
+    "@parcel/transformer-sass": "2.5.0"
+  }
+}
