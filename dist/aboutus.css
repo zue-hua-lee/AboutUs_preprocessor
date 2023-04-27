@@ -1,0 +1,395 @@
+p {
+  margin: 0.5vh; }
+
+#WeLugg_main {
+  background: url(https://ppt.cc/f0lUsx@.png) center/cover;
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 3.34101; }
+  #WeLugg_main .main_word1 {
+    display: none;
+    animation-delay: 0;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #5D5B5B;
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 3vw;
+    position: absolute;
+    width: 48%;
+    white-space: nowrap;
+    overflow: hidden;
+    bottom: 17%;
+    right: 0; }
+  #WeLugg_main .main_word2 {
+    display: none;
+    animation-delay: 0.4s;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 3vw;
+    position: absolute;
+    width: 48%;
+    white-space: nowrap;
+    overflow: hidden;
+    bottom: 9%;
+    right: 0; }
+
+#WeLugg_title {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 5.45113; }
+  #WeLugg_title #logo {
+    display: none;
+    animation-delay: 0.8s;
+    background: url(https://ppt.cc/fdccdx@.png) no-repeat center/contain;
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    bottom: 18%;
+    left: 29%; }
+  #WeLugg_title .title_word1 {
+    display: none;
+    animation-delay: 0.8s;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #87C2B6;
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    bottom: 25%;
+    right: calc(37% + 9vw); }
+  #WeLugg_title .title_word2 {
+    display: none;
+    animation-delay: 0.8s;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #5B7097;
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    bottom: 25%;
+    right: 37%; }
+
+#WeLugg_aboutCompany {
+  background-color: #EEEEEE;
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 1.93333; }
+  #WeLugg_aboutCompany #aboutCompany_box {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 25%; }
+    #WeLugg_aboutCompany #aboutCompany_box #image_left {
+      display: none;
+      animation-delay: 0.8s;
+      background: url(https://ppt.cc/fCJkvx@.png) no-repeat center/contain;
+      width: 30%;
+      height: 100%;
+      margin-left: 12%; }
+    #WeLugg_aboutCompany #aboutCompany_box #image_mid {
+      display: none;
+      animation-delay: 0.8s;
+      background: url(https://ppt.cc/fjMbZx@.png) no-repeat center/contain;
+      width: 30%;
+      height: 100%;
+      margin: 0 1%; }
+    #WeLugg_aboutCompany #aboutCompany_box #image_right {
+      display: none;
+      animation-delay: 0.8s;
+      background: url(https://ppt.cc/fxUfYx@.png) no-repeat center/contain;
+      width: 30%;
+      height: 100%;
+      margin-right: 12%; }
+  #WeLugg_aboutCompany .aboutCompany_word1 {
+    display: none;
+    animation-delay: 0;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #7184A6;
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 3vw;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: calc(25% - 7vw); }
+  #WeLugg_aboutCompany .aboutCompany_word2 {
+    display: none;
+    animation-delay: 0.4s;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 3vw;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: calc(25% - 4vw); }
+  #WeLugg_aboutCompany .aboutCompany_word3 {
+    display: none;
+    animation-delay: 1.2s;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #5D5B5B;
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: 62%; }
+  #WeLugg_aboutCompany .aboutCompany_word4 {
+    display: none;
+    animation-delay: 1.6s;
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: calc(62% + 9vw); }
+
+#WeLugg_aboutUs {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 2.41667; }
+  #WeLugg_aboutUs #aboutUs_box {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    top: 25%;
+    display: flex;
+    justify-content: space-evenly; }
+    #WeLugg_aboutUs #aboutUs_box #image_member1 {
+      background: url(https://ppt.cc/fHAlkx@.png) no-repeat center/contain;
+      cursor: pointer;
+      opacity: 0.3;
+      width: 17%;
+      height: auto;
+      margin: 0 1%; }
+    #WeLugg_aboutUs #aboutUs_box #image_member2 {
+      background: url(https://ppt.cc/fNC8ax@.png) no-repeat center/contain;
+      cursor: pointer;
+      opacity: 0.3;
+      width: 17%;
+      height: auto;
+      margin: 0 1%; }
+    #WeLugg_aboutUs #aboutUs_box #image_member3 {
+      background: url(https://ppt.cc/f8S9lx@.png) no-repeat center/contain;
+      cursor: pointer;
+      opacity: 0.3;
+      width: 17%;
+      height: auto;
+      margin: 0 1%; }
+    #WeLugg_aboutUs #aboutUs_box #image_member4 {
+      background: url(https://ppt.cc/fleazx@.png) no-repeat center/contain;
+      cursor: pointer;
+      opacity: 0.3;
+      width: 17%;
+      height: auto;
+      margin: 0 1%;
+      opacity: 1; }
+    #WeLugg_aboutUs #aboutUs_box #image_member5 {
+      background: url(https://ppt.cc/fJkL9x@.png) no-repeat center/contain;
+      cursor: pointer;
+      opacity: 0.3;
+      width: 17%;
+      height: auto;
+      margin: 0 1%; }
+    #WeLugg_aboutUs #aboutUs_box #image_member1:hover,
+    #WeLugg_aboutUs #aboutUs_box #image_member2:hover,
+    #WeLugg_aboutUs #aboutUs_box #image_member3:hover,
+    #WeLugg_aboutUs #aboutUs_box #image_member4:hover,
+    #WeLugg_aboutUs #aboutUs_box #image_member5:hover {
+      opacity: 0.7;
+      width: 19%;
+      margin: 0; }
+  #WeLugg_aboutUs .aboutUs_word1 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #7184A6;
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: 11%; }
+  #WeLugg_aboutUs .aboutUs_word2 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: calc(11% + 4vw); }
+
+#WeLugg_person1 {
+  background-color: #EEEEEE;
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 0.725;
+  padding: 15%; }
+  #WeLugg_person1 .person_word1 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #F1564C;
+    font-size: 5.3vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 12%; }
+  #WeLugg_person1 .person_word2 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: black;
+    font-size: 2.2vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: calc(12% + 4vw);
+    right: 50vw; }
+  #WeLugg_person1 .person_word3 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    top: calc(12% + 10vw); }
+  #WeLugg_person1 .person_word4 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    top: calc(12% + 12vw);
+    right: 50vw; }
+  #WeLugg_person1 .person_line {
+    border: 0.2vw solid #7A7676;
+    position: absolute;
+    width: 84%;
+    top: 25%;
+    left: 8%; }
+  #WeLugg_person1 #image4 {
+    background: url(https://ppt.cc/fZfAAx@.png) no-repeat bottom left/contain;
+    width: 40%;
+    height: 22%;
+    position: absolute;
+    top: 3%;
+    left: 60%; }
+  #WeLugg_person1 .person_box {
+    position: absolute;
+    width: 50%;
+    height: 8%;
+    top: 30%;
+    left: 25%;
+    display: flex;
+    justify-content: space-between; }
+    #WeLugg_person1 .person_box .person_package {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #WeLugg_person1 .person_box .person_package #illustration1 {
+        background: url(https://ppt.cc/fo7Zcx@.png) no-repeat center/contain;
+        width: 50px;
+        height: 50px; }
+      #WeLugg_person1 .person_box .person_package #illustration2 {
+        background: url(https://ppt.cc/flAzyx@.png) no-repeat center/contain;
+        width: 50px;
+        height: 50px; }
+      #WeLugg_person1 .person_box .person_package #illustration3 {
+        background: url(https://ppt.cc/fQueHx@.png) no-repeat center/contain;
+        width: 50px;
+        height: 50px; }
+      #WeLugg_person1 .person_box .person_package .illustration_word {
+        font-family: 'Hind Kochi',"Helvetica",sans-serif;
+        color: #5D5B5B;
+        font-size: 1.2vw;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 60px; }
+  #WeLugg_person1 .person_word5 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: 40%; }
+  #WeLugg_person1 .person_word6 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #5D5B5B;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: 44%; }
+  #WeLugg_person1 .person_word7 {
+    font-family: 'Hind Kochi',"Helvetica",sans-serif;
+    color: #939191;
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    top: 60%; }
+  #WeLugg_person1 .world_map {
+    background: url(https://ppt.cc/fbw9Xx@.png) no-repeat center/contain;
+    width: 80%;
+    height: 38%;
+    position: absolute;
+    top: 58%;
+    left: 10%; }
+  #WeLugg_person1 .image_fb {
+    background: url(https://ppt.cc/fMnI5x@.png) no-repeat center/contain;
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    bottom: 2%;
+    left: 45%; }
+  #WeLugg_person1 .image_ig {
+    background: url(https://ppt.cc/fE8n9x@.png) no-repeat center/contain;
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    bottom: 2%;
+    left: 51%; }
